@@ -9,7 +9,7 @@ $(document).ready(function () {
     $('#inputWhatsapp').inputmask('(99) 99999-9999');
 
     var base_color = "#ffffff";
-    var active_color = "#144c8c";
+    var active_color = "#ffda0b";
 
 
     var child = 1;

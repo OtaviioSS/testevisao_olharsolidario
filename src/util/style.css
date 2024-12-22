@@ -76,7 +76,7 @@ section {
     max-width: 800px;
     min-height: 300px;
     margin: 8px auto;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(192, 0, 72, 0.9);
     backdrop-filter: blur(10px);
     border-radius: 5px;
 }
@@ -209,9 +209,8 @@ section {
 
 .next-button {
     border: none;
-    background-color: #ffffff;
+    background-color: #ffda08;
     color: #c00048 !important;
-    background-image: linear-gradient(right, #ffda0d, #ffee75) !important;
 }
 
 .next-button:hover {
@@ -257,3 +256,6 @@ h5,h3,h1{
 
 }
 
+circle:focus, rect:active{
+    fill: #ffda0b !important;
+}
