@@ -1,0 +1,769 @@
+[12-Aug-2023 03:01:43 UTC] PHP Fatal error:  Uncaught TypeError: src\repository\ResultadoRepository::inserir(): Argument #1 ($resultado) must be of type src\repository\Resultado, src\Model\Resultado given, called in /home/u254315853/domains/machadoburger.incub.com.br/public_html/src/controller/ResultadoController.php on line 30 and defined in /home/u254315853/domains/machadoburger.incub.com.br/public_html/src/repository/ResultadoRepository.php:13
+Stack trace:
+#0 /home/u254315853/domains/machadoburger.incub.com.br/public_html/src/controller/ResultadoController.php(30): src\repository\ResultadoRepository->inserir()
+#1 /home/u254315853/domains/machadoburger.incub.com.br/public_html/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#2 {main}
+  thrown in /home/u254315853/domains/machadoburger.incub.com.br/public_html/src/repository/ResultadoRepository.php on line 13
+[25-May-2024 22:55:00 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[25-May-2024 22:55:00 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[25-May-2024 22:55:00 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[25-May-2024 22:55:00 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[25-May-2024 22:59:19 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[25-May-2024 22:59:19 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[26-May-2024 18:16:16 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[26-May-2024 18:16:16 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[14-Aug-2024 16:56:01 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[14-Aug-2024 16:56:01 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[14-Aug-2024 16:56:04 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[14-Aug-2024 16:56:04 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[14-Aug-2024 16:56:11 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[14-Aug-2024 16:56:11 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[14-Aug-2024 16:56:13 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[14-Aug-2024 16:56:13 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[14-Aug-2024 16:57:02 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[14-Aug-2024 16:57:02 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[14-Aug-2024 16:57:02 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[14-Aug-2024 16:57:02 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[14-Aug-2024 16:57:02 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[14-Aug-2024 16:57:02 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[14-Aug-2024 16:57:03 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[14-Aug-2024 16:57:03 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[14-Aug-2024 16:57:03 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[14-Aug-2024 16:57:03 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[14-Aug-2024 16:57:19 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[14-Aug-2024 16:57:19 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:05 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:05 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:05 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:05 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:12 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:12 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:12 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:12 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:13 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:13 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:13 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:13 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:16 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:16 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:16 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:16 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:17 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:17 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:17 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:17 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:17 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:17 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:17 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:17 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:17 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:17 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:17 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:17 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:18 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:18 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:18 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:18 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:18 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:18 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:18 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:18 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:18 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:18 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:18 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:18 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:26 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:26 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:26 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:26 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:26 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:26 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:26 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:26 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:26 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:26 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:26 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:26 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:26 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:26 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:26 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:26 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:26 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:26 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:26 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:26 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:27 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:27 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:27 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:27 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:27 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:27 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:27 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:27 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:29 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:29 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:29 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:29 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:29 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:29 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:29 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:29 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:45:29 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:29 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:45:29 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:45:29 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:02 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:02 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:02 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:02 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:04 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:04 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:04 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:04 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:05 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:05 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:05 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:05 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:06 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:06 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:06 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:06 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:06 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:06 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:06 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:06 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:07 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:07 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:07 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:07 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:07 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:07 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:07 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:07 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:07 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:07 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:07 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:07 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:07 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:07 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:07 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:07 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:07 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:07 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:07 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:07 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:08 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:08 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:08 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:08 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:08 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:08 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:08 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:08 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:09 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:09 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:09 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:09 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:09 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:09 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:09 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:09 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:09 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:09 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:09 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:09 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:09 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:09 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:09 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:09 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:10 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:10 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:10 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:10 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:10 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:10 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:10 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:10 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:11 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:11 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:11 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:11 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:11 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:11 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:11 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:11 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:11 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:11 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:11 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:11 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:11 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:11 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:11 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:11 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:11 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:11 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:11 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:11 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:12 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:12 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:12 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:12 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:12 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:12 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:12 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:12 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:12 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:12 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:12 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:12 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:13 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:13 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:13 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:13 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:13 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:13 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:13 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:13 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:13 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:13 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:13 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:13 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:13 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:13 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:13 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:13 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:13 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:13 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:13 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:13 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:13 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:13 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:13 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:13 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:14 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:14 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:14 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:14 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:14 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:14 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:14 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:14 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:14 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:14 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:14 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:14 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:14 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:14 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:14 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:14 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:14 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:14 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:14 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:14 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:14 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:14 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:14 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:14 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:15 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:15 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:15 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:15 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:15 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:15 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:15 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:15 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:15 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:15 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:15 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:15 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:15 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:15 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:15 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:15 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:15 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:15 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:15 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:15 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 15:48:16 UTC] PHP Warning:  Undefined array key "resultadoTesteContrasteOlhoDireito" in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:16 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 23
+[13-Sep-2024 15:48:16 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 15:48:16 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 19:54:34 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 19:54:34 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[13-Sep-2024 19:54:37 UTC] PHP Warning:  imagecreatefrompng(../util/img/logo-vermelha.png): Failed to open stream: No such file or directory in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 80
+[13-Sep-2024 19:54:37 UTC] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php:84
+Stack trace:
+#0 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(84): imagesx()
+#1 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(31): src\controller\ResultadoController->gerarImagem()
+#2 /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php(127): src\controller\ResultadoController->salvarCliente()
+#3 {main}
+  thrown in /home/u254315853/domains/incub.com.br/public_html/xqc/src/controller/ResultadoController.php on line 84
+[20-Dec-2024 20:51:32 UTC] PHP Deprecated:  Implicit conversion from float -340.5 to int loses precision in /home/u254315853/domains/olharsolidario.incub.com.br/public_html/src/controller/ResultadoController.php on line 90
