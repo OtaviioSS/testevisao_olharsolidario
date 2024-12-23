@@ -6,7 +6,8 @@ html {
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(245, 245, 245, .3)) no-repeat center center fixed, url("img/background.png") no-repeat;
+    /*background: linear-gradient(rgba(0, 0, 0, .5), rgba(245, 245, 245, .3)) no-repeat center center fixed, url("img/background.png") no-repeat;*/
+  background-color: #ed0059;
     background-size: auto;
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
