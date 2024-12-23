@@ -243,8 +243,8 @@ section {
 .yes-or-no-button:focus,
 .next-button:focus {
     border: none;
-    color: #ffffff !important;
-    background-color: #c00048;
+    color: #c00048 !important;
+    background-color: #ffda0b;
     background-image: linear-gradient(right, #ffda0d, #ffee75) !important;
 }
 
