@@ -237,7 +237,7 @@ section {
 .next-button:active {
     border: none;
     color: #ffffff !important;
-    background-color: #c00048;
+    background-color: #ffda0b;
 }
 
 .yes-or-no-button:focus,
