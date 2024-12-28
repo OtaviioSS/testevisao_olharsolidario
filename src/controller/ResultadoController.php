@@ -75,13 +75,36 @@ class ResultadoController extends ResultadoRepository
         $corRuim = imagecolorallocate($imagem, 255, 0, 0); // Vermelho
         $corOtimo = imagecolorallocate($imagem, 0, 200, 0); // Verde
 
-        // Adicionando o ícone superior
-        $icone = imagecreatefrompng('../util/img/icone.png'); // Ícone em PNG
-        $larguraIcone = imagesx($icone);
-        $alturaIcone = imagesy($icone);
-        $posicaoXIcone = (400 - $larguraIcone) / 2;
-        imagecopy($imagem, $icone, $posicaoXIcone, 20, 0, 0, $larguraIcone, $alturaIcone);
-        imagedestroy($icone); // Libera memória
+        // Adicionando o ícone superior redimensionado
+        $iconePath = '../util/img/icone.png'; // Ícone em PNG
+        if (!file_exists($iconePath)) {
+            throw new Exception("Ícone não encontrado no caminho: " . $iconePath);
+        }
+
+        $iconeOriginal = imagecreatefrompng($iconePath);
+        $iconeRedimensionado = imagecreatetruecolor(50, 50); // Redimensionar para 50x50 pixels
+        imagealphablending($iconeRedimensionado, false);
+        imagesavealpha($iconeRedimensionado, true); // Preservar transparência
+
+        // Redimensionar o ícone
+        imagecopyresampled(
+            $iconeRedimensionado,
+            $iconeOriginal,
+            0,
+            0,
+            0,
+            0,
+            50,
+            50,
+            imagesx($iconeOriginal),
+            imagesy($iconeOriginal)
+        );
+        imagedestroy($iconeOriginal); // Liberar o recurso do ícone original
+
+        // Posicionar o ícone redimensionado
+        $posicaoXIcone = (400 - 50) / 2; // Centralizado horizontalmente
+        imagecopy($imagem, $iconeRedimensionado, $posicaoXIcone, 20, 0, 0, 50, 50);
+        imagedestroy($iconeRedimensionado); // Liberar memória do ícone redimensionado
 
         // Título principal
         $titulo = "Teste rápido de visão";
@@ -155,6 +178,7 @@ class ResultadoController extends ResultadoRepository
         // Libera memória
         imagedestroy($imagem);
     }
+
 
 }
 $connection = Connection::getConnection();
