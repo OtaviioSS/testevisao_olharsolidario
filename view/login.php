@@ -25,7 +25,7 @@
 
 
 <body>
-<section class="" style="background-color: #ffa800;">
+<section class="" style="background-color: #c00048;">
     <div class="container py-5 h-100">
         <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col col-xl-10">
@@ -63,7 +63,7 @@
 
                                     <div class="pt-1 mb-4">
                                         <input type="hidden" name="btnLoginUser" value="btnLoginUser">
-                                        <button type="submit" class="btn btn-warning btn-lg btn-block" id="btnLoginUser" name="btnLoginUser">Entrar</button>
+                                        <button type="submit" class="btn btn-danger btn-lg btn-block" id="btnLoginUser" name="btnLoginUser">Entrar</button>
                                     </div>
                                     <a href="" class="small text-muted" data-mdb-toggle="modal" data-mdb-target="#recoverPasswordModal">Esqueceu a Senha?</a>
                                     <!-- <p class="mb-5 pb-lg-2" style="color: #393f81;">Não tem uma conta? <a href="view/registrer_user.php" style="color: #393f81;">Registre-se</a></p> -->
